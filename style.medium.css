@@ -1,0 +1,36 @@
+header .wrapper{
+    padding: 0.5em 0.5em;
+}
+.tabs nav a{
+    margin-left: 1em;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+}
+.sec2 .grouppic{
+    padding-left: 10px;
+padding: 10px;
+}
+.grouppara p{
+    font-size: 15px;
+}
+.sec1{
+    padding-bottom: 60px;
+}
+.black{
+    padding-bottom: 50px;
+}
+.footer .child{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    
+
+}
+.child h3{
+    font-size: 1.5em;
+}
+.tabs a{
+    font-size: 1.1em;
+}

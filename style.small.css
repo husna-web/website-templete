@@ -1,0 +1,193 @@
+
+
+  body{
+    font-size: 14px;
+  }
+
+  header{
+    padding: 1em 0;
+  }
+  .logo h2{
+    font-size: 1.8em;
+    margin-left: 0.3em;
+  }
+  .tabs nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tabs nav a{
+    padding: 0.5em;
+    margin: 0;
+    font-size: 0.9em;
+    color: black;
+  }
+  .tabs nav a:hover{
+    color: aliceblue;
+  }
+
+
+  .row{
+    flex-direction: column;
+    height: auto;
+    padding-top: 5em;
+    gap: 20px;
+  }
+  .content{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .content h1{
+    font-size: 2em;
+  }
+  .content span{
+    font-size: 0.9em;
+  }
+  .content p{
+    font-size: 0.9em;
+  }
+  .btn{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn1, .btn2{
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .row .mobile img{
+    width: 90%;
+    height: auto;
+  }
+  .sec2{
+    flex-direction: column;
+    height: auto;
+    padding: 1em 0;
+    text-align: center;
+  }
+  .sec2 .grouppic{
+    padding: 0;
+  }
+  .sec2 .grouppic img{
+    width: 90%;
+    height: auto;
+  }
+  .grouppara p,
+  .grouppara b,
+  .grouppara i{
+    font-size: 1em;
+  }
+  .box{
+    flex-direction: column;
+    height: auto;
+    padding: 1em 0;
+    text-align: center;
+  }
+  .box .pic{
+    padding: 0;
+  }
+  .box .pic img{
+    width: 90%;
+    height: auto;
+  }
+  .content1{
+    padding: 10px;
+    text-align: center;
+  }
+  .content1 h2{
+    font-size: 1.5em;
+  }
+  .content1 p{
+    font-size: 0.9em;
+  }
+
+  /* -------- PARALLAX NUMBERS -------- */
+  .upper{
+    flex-direction: column;
+    padding: 1em 0;
+  }
+  .number{
+    font-size: 1.8em;
+  }
+  .number b{
+    font-size: 2em;
+  }
+
+  /* -------- SIMPLE BLACK SECTION -------- */
+  #last{
+    padding: 1em 0;
+    font-size: 1.3em;
+  }
+  #last p{
+    width: 90%;
+    font-size: 0.7em;
+    line-height: 24px;
+  }
+
+  
+  
+
+
+  .contactparent{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1em 0;
+  }
+  .massage,
+  .contact{
+    width: 90%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  .massage input,
+  .contact p{
+    font-size: 0.9em;
+  }
+.massage button{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+}
+.massage{
+    padding-bottom: 20px;
+}
+  .footer{
+    flex-direction: column;
+    padding: 1em 0;
+    gap: 1em;
+    text-align: center;
+  }
+  .child{
+    margin: 1em;
+  }
+  .child h3{
+    font-size: 1.4em;
+  }
+  .tabs a{
+    padding: 0.3rem;
+    font-size: 1em;
+  }
+
+  .rights{
+    font-size: 1em;
+  }
+  .gallery{
+    width: 100%;
+    height: 100vh;
+    /* padding-left: 90px; */
+    padding-bottom: 0;
+    flex-wrap: nowrap;
+  }
+  .outer{
+    border: 8px solid red;
+    /* width: 100px; */
+    /* height: 100px; */
+  }
+.outer img{
+width: 250px;
+height: 250px;
+}
