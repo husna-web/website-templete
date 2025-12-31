@@ -355,7 +355,7 @@ width: 800px;
   padding-left: 40px;
   padding-bottom: 40px;
   justify-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   }
  .contactparent{
     height: 650px;
